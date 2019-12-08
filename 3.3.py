@@ -1,5 +1,6 @@
 #I think my solution is more elegant than the offical one http://greenteapress.com/thinkpython2/code/grid.py
 #In particular, the official solution exploits vacuous functions wheras I exploit vacuous 'arguments'
+#The advantadge of this is seen especially in pt. 2
 
 def call_two(function, value1, value2):
     function(value1, value2)
