@@ -35,21 +35,6 @@ def f(n):
 
 print(f(7))
 
-#
-def f(word, letter, frequency):
-    index = 0
-    freq = 0
-    while index < len(word):
-        if freq == frequency:
-            return index - 1 
-        elif word[index] == letter:
-             freq = freq + 1
-             index = index + 1
-        else: index = index + 1
-    return -1
-
-print(f("soul's sorrow steeped-in", 's', 3))
-    
 # reversing strings, skip slicing
 def f(x):
     return x == x[ : : -1]
