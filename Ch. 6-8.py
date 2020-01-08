@@ -28,11 +28,6 @@ def f():
 f()
 
 #
-greeting = 'hello, world'
-
-greeting[ : -1] = 'p' #recall that the [ : ] excludes the last item
-
-#
 
 def f(n):
     while n > 0:
