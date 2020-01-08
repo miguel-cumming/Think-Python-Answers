@@ -1,4 +1,4 @@
-path = '/users/juancumming/documents/words.txt'
+path = '/users/miguel/documents/words.txt'
 fin = open(path)
 
 def is_good_word(word, q):
