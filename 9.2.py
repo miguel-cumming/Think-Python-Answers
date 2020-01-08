@@ -1,4 +1,4 @@
-path = '/users/juancumming/documents/words.txt'
+path = '/users/miguel/documents/words.txt'
 fin = open(path)
 
 word_count = 0 
