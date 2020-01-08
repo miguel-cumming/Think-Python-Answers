@@ -2,7 +2,7 @@
 #does not non-alphabetical characters nor rotations outside 1 - 26
 
 def encode(sentence, rotation):
-    sentence = sentence.lower()
+    sentence.lower()
     y = ''
     for i in sentence:
         if i == ' ':
