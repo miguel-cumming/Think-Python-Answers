@@ -5,7 +5,7 @@ word_count = 0
 for i in fin:
     word_count = word_count + 1
 
-fin2 = open(path)
+fin2 = open(path) #necessary; fin can be iterated over only once
 
 y = 0
 for i in fin2:
