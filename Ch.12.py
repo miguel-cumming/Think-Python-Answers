@@ -35,7 +35,7 @@ for i, j, k in z:
 
 #has_match
 def has_match(s1, s2):
-    """ determines whether there exists an index where s1, s2
+    """ determines whether there exists an index where seq1, seq2
         share the same value
     """
     z = zip(s1, s2)
